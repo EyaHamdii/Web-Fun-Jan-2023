@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+<form action="/process" method="post"></form>
+    <div>
+        <label>First Name:*</label>
+        <input type="text" name="First Name" 
+        placeholder="Your First Name..."
+    </div>
+    <div>
+        <label>Second Name:*</label>
+        <input type="text" name="Second Name" 
+        placeholder="Your Second Name..."
+    </div>
+    <div>
+        <label>Email Adress*:</label>
+        <input type="text" name="email" 
+        placeholder="Your email..." >
+    </div>
+    <div>
+        <label>Password*:</label>
+        <input type="password" name="Password"
+        placeholder="Enter Your Password...">
+    </div>
+    <div>
+        <label>Confirm Password*:</label>
+        <input type="password" name="Confirm Password"
+        placeholder="Enter Your Password To Confirm...">
+    </div>
+    <div>
+        <label>Birthday:</label>
+        <input type="date" name="dob">
+    </div>
+    <div>
+        <p>Gender Identity:</p>
+        <label>Male</label>
+        <input type="radio" name="Gender">
+        <label>Female</label>
+        <input type="radio" name="Gender">
+        <label>I prefer not to answer</label>
+        <input type="radio" name="Gender">
+    </div>
+<div>
+    <p>A short description about my self:</p>
+    <textarea name="description" cols="20" rows="3"></textarea>
+</div>
+<div>
+    <p>Favorite Language:</p>
+    <select name="Language">
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <option value="C#">C#</option>
+    </select>
+    </div>
+    <p>Yes,I would like to recieve periodic imail updates</p>
+    <input type="checkbox"> 
+    <div>
+        <label for="Create Account"</label>
+        <input type="submit" value="Create Account"> 
+    </div>
+    <p>*Indicates a required file</p>
+
+
+</body>
+</html>
