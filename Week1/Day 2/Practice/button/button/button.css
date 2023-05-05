@@ -1,0 +1,27 @@
+.search {
+    color: aqua;
+    background-color: aliceblue;
+    height: 30px;
+    width: 15%;
+    border-radius: 30%;
+    display: block;
+
+
+}
+.plus{
+    color: azure;
+    background-color: aqua;
+    height: 50%;
+    border-radius: 50%;
+    display: block;
+
+}
+.create{
+    color: azure;
+    background-color: blue;
+    box-shadow: 10px 5px 5px black;
+    border: 1px solid black;
+    height: 40px;
+    display: block;
+    width: 22%;
+}
