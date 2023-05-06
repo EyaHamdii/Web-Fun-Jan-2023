@@ -1,0 +1,50 @@
+.octocat {
+    height: 200px;
+    justify-content: space-around;
+    background-color: grey;
+    display: flex;
+
+
+}
+.cat{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.cat2{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+.cat3{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.novcat{
+    height: 200px;
+    background-color: palevioletred;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 2%;
+}
+.AA {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.BB{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.deccat{
+    height: 200px;
+    justify-content: space-around;
+    display: flex;
+    background-color: bisque;
+    margin-top: 2%;
+
+}
+.light{
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+    
