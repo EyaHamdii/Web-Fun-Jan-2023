@@ -1,0 +1,30 @@
+div.nav{
+    background-color: grey;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+
+}
+h1.nav-title{
+    margin-left: 1%;
+    width: 2222%;
+   
+    
+}
+.nav-links ul{
+    display: flex;
+    font-size: 150%;
+    justify-content: space-between;
+
+}
+.j{
+    padding-right: 11%;
+}
+
+
+
+
+  
+  
+
