@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    
+    justify-content: space-evenly;
+}
+
+.title{
+    display: flex;
+    background-color: black;
+    height: 2cm;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.small{
+    width: 15cm;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: azure;
+    align-items: center;
+}
+.button{
+    height: 50%;
+    width: 11%;
+    background-color: rgb(29, 29, 212);
+    color: azure;
+}
+.userCard{
+   padding-left: 2cm;
+   width: 13cm; 
+   padding-top: 1cm;
+}
+.user-header{
+    background-color: rgb(124, 200, 248);
+    height: 2cm;
+    display: flex;
+   align-items: 100px;
+}
+
+.Profile-img{
+    width:120px; height:120px;
+    padding-top:3%;
+    padding-left: 1cm;
+}
+.pays{
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#location{
+    width:12px; height:20px;
+    
+}
+.box1{
+    padding-top: 2cm;
+    padding-left: 5%;
+    border: 1px solid lightblue;
+    border-top: 0px;
+}
+#parametre{
+    width:20px; height:20px;
+}
+.education{
+    width: 8cm;
+    padding-top: 1cm;
+    
+}
+.header{
+    background-color: rgb(46, 43, 43);
+    height: 1.5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.number2{
+    padding-left: 0%;
+    border-radius: 50%;
+    width: 8%;height: 45%;
+    background-color: lightgrey;
+    
+}
+.body{
+    padding-top: 3%;
+    padding-left: 3%;
+    border: 1.5px solid gray;
+    border-top: 0cm;
+}
+
+.invi{
+    justify-items: center;
+    padding-bottom: 8%;
+    padding-left: 1%;
+
+}
+.inv1{
+    display: flex;
+}
+.body1 h3{
+   padding-top: 12%;
+}
+#img {
+    border-radius: 50%;
+    width: 15%;
+    display: flex;
+}
+#close{
+    width: 25%;
+}
+.header1{
+    background-color: rgb(46, 43, 43);
+    height: 1.5cm;
+    color: azure;
+    
+    display: flex;
+    padding-left: 1%;
+    
+}
+.body1{
+    padding-top: 2%;
+    border: 2% solid gainsboro;
+}
+
+#new{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+h4{
+    padding-bottom: 2%;
+    color: rgb(176, 175, 175);
+}
+h5{
+    padding-bottom: 1%;
+}
+.education1{
+    width: 60%;
+    margin-left: 13%;
+    margin-top: 1cm;
+    border: solid gainsboro;
+}
+#love{
+   padding-top: 9%;
+   padding-left: 12%;
+}
+.header3{
+    background-color: rgb(46, 43, 43);
+    margin-top: 1cm;
+}
+.body3{
+    border: solid 1% gray;
+}
+.big{
+    display: flex;
+}
+#home{
+    display: flex;
+}
