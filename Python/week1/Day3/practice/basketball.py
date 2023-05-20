@@ -26,6 +26,7 @@ kyrie = {
     "team": "Brooklyn Nets"
 }
 player_jason=player(jason["name"],jason["age"],jason["position"],jason["team"])
+
 plyers=[
     {
         "name": "Kevin Durant", 
@@ -69,3 +70,5 @@ for obj in players:
      new=player(obj)
      new_team.append(new)
      print(new_team)
+
+
