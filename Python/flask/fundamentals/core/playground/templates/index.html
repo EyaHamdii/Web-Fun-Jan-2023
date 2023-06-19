@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+<h1>Welcome!</h1> 
+    <style>
+        
+.box {
+    background-color: {{ color }};
+    width: 200px;
+    height: 200px;
+    margin-left: 1cm;
+    margin-top: 3cm;
+    border: solid black;
+}
+.OFF{
+    justify-content:space-evenly ;
+    display: flex;
+}
+h1{
+    color: navy;
+    margin-left: 16cm;
+    margin-top: 1cm;
+    height: 1cm;
+}
+    </style>
+    {% for i in range(num_boxes) %}
+    <div class="box"></div>
+{% endfor %}
+
+
+</body>
+</html>
